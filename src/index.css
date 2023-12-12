@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #000000;
+    --color-secondary: rgb(68, 68, 68) 115 179;
+    --color-button-hover:#777777;
+    --background-color:radial-gradient(ellipse farthest-corner at right bottom, rgba(0, 0, 0, 0), rgb(65, 62, 62));
+    --color-gold: linear-gradient(to right,#bf953f ,#fcf6ba,#b38728,#fbf5b7,#aa771c);
+  }}

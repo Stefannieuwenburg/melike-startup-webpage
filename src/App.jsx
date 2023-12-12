@@ -1,16 +1,24 @@
+import { Transplant } from "../src/pages/transplant/index";
+import { Loss } from "../src/pages/loss/index";
+import { Before } from "../src/pages/before/index";
+import { Results } from "../src/pages/results/index";
+import { Cost } from "../src/pages/cost/index";
 import Layout from "../src/layout/index";
-export default function App() {
+
+
+const App = () => {
   return (
     <>
       <Layout>
-        <h1 className="text-3xl font-bold ">Vite + React</h1>
-        <p className="text-3xl font-bold text-violet-500">
-          Click on the Vite and React logos to learn more
-        </p>
+        <Transplant />
+        <Loss />
+        <Before />
+        <Results />
+        <Cost />
       </Layout>
-      
     </>
   );
 }
 
+export default App;
 

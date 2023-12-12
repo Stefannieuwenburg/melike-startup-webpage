@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { NavLinks } from "./data";
-import Logo from "../../assets/logos/logo.jpg";
+
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);

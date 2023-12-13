@@ -46,7 +46,7 @@ export const NavBar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-700 to-black text-[#9b7d3e]">
-          <img src={Logo} alt="logo" className=" rounded-2xl w-13 h-13" />
+          <img src={logo} alt="logo" className=" rounded-2xl w-13 h-13" />
           {NavLinks.map(({ id, link }) => (
             <li
               key={id}

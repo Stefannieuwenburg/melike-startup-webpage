@@ -3,18 +3,18 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { NavLinks } from "./data";
-
+import logo from "../../assets/logos/go4hair.png";
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);
   return (
     <div className="flex justify-between items-center w-full h-40 bg-gradient-to-bl from-gray-700 to-black ">
       <div className="flex items-center">
-        {/* <img
-          src={Logo}
+        <img
+          src={logo}
           alt="logo"
-          className="rounded-2xl object-cover h-40 w-40 hover:-translate-y-1 hover:scale-110 hover:duration-300"
-        /> */}
+          className="rounded-2xl object-fill h-40 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+        />
       </div>
       <ul className="hidden md:flex">
         {NavLinks.map(({ id, link }) => (

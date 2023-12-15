@@ -29,4 +29,6 @@ className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
 
 Configuring Absolute path in React Projects
 
+https://blog.webdevsimplified.com/2022-07/react-router/
+
 Fun !!

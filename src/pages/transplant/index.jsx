@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import {Link} from "react-router-dom";
 
 export const Transplant = () => {
   return (
@@ -8,8 +8,6 @@ export const Transplant = () => {
 
         <Link
           to="contact"
-          smooth={true}
-          duration={500}
           className="bg-green-600 m-4 p-3 text-gray-800 font-bold font-sans cursor-pointer hover:-translate-y-1 hover:scale-110 hover:duration-300"
         >
           contact

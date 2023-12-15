@@ -1,4 +1,4 @@
-export const Contact = () => {
+const Contact = () => {
     return (
     <>
         <section id="contact" className="h-screen w-full">
@@ -7,3 +7,4 @@ export const Contact = () => {
     </>
     );
 };
+export default Contact;

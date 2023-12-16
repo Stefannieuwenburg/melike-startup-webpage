@@ -1,14 +1,14 @@
 
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { NavLinks } from "./data";
 import logo from "../../assets/logos/go4hair.png";
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);
   return (
-    <div className="flex justify-between items-center w-full h-40 bg-gradient-to-bl from-gray-700 to-black ">
+    <div className="flex justify-between items-center w-full h-40 bg-[#201E20] ">
       <div className="flex items-center">
         <img
           src={logo}
@@ -20,21 +20,19 @@ export const NavBar = () => {
         {NavLinks.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 text-amber-200 py-6 text-2xl font-mono cursor-pointer capitalize text-primary-300  "
+            className="px-4 text-amber-200 py-6 text-xl font-mono cursor-pointer capitalize text-primary-300  "
           >
-            <Link
-              className="hover:text-[#9b7d3e] font-semibold"
-              to={link}
-              smooth
-              duration={500}
-            >
+            <Link className="hover:text-[#9b7d3e] font-semibold" to={link}>
               {link}
             </Link>
           </li>
         ))}
-        <button className="bg-[#9b7d3e] m-4 rounded-2xl p-2 text-gray-800 font-bold font-sans cursor-pointer hover:-translate-y-1 hover:scale-110 hover:duration-300">
+        <Link
+          to="/Contact"
+          className="flex items-center bg-[#9b7d3e] m-4 rounded-2xl p-1 text-gray-800 font-bold font-sans cursor-pointer hover:-translate-y-1 hover:scale-110 hover:duration-300"
+        >
           Get Started
-        </button>
+        </Link>
       </ul>
 
       <div
@@ -50,19 +48,23 @@ export const NavBar = () => {
           {NavLinks.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-6 text-2xl"
             >
               <Link
                 className="hover:text-white"
                 onClick={() => setNav(!nav)}
                 to={link}
-                smooth
-                duration={500}
               >
                 {link}
               </Link>
             </li>
           ))}
+          <Link
+            to="/Contact"
+            className="flex items-center bg-[#9b7d3e] mt-4 rounded-2xl p-2 text-gray-800 font-bold font-sans cursor-pointer hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            Get Started
+          </Link>
         </ul>
       )}
     </div>

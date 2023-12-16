@@ -26,9 +26,10 @@ Demo [https://templatemo.com/live/templatemo_456_luxury_gold]
 colors: black
 gold inlined color:#915907
 className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+bg-gradient-to-bl from-gray-700 to-black
 
 Configuring Absolute path in React Projects
 
 https://blog.webdevsimplified.com/2022-07/react-router/
 
-Fun !!
+Fun !!!!

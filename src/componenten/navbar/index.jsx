@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-
+import logo from "../../assets/logos/orglogo.jpg"
 export const NavMenu = () => {
   const [nav, setNav] = useState(false);
 
@@ -29,9 +29,10 @@ export const NavMenu = () => {
   ];
 
   return (
-    <div className="relative flex justify-between items-center w-full h-20 px-4 text-white bg-[#210e20]">
+    <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-white border-2 border-[#d8aa46] ">
       <div>
-        <h1 className="text-2xl ml-2 text-[#e0a96d]">Go4Hair</h1>
+        <img src={logo} alt="logo" className=" object-fill h-20" />
+        {/* <h1 className="text-2xl ml-2 text-[#e0a96d]">Go4Hair</h1> */}
       </div>
 
       <ul className="hidden md:flex">
@@ -40,7 +41,7 @@ export const NavMenu = () => {
             key={id}
             className="px-4 text-l cursor-pointer capitalize text-primary-300 hover:underline"
           >
-            <Link className="hover:text-white" to={link} smooth duration={500}>
+            <Link className="hover:text-black" to={link} smooth duration={500}>
               {link}
             </Link>
           </li>
@@ -49,20 +50,20 @@ export const NavMenu = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-white md:hidden"
+        className="cursor-pointer pr-4 z-10 text-black md:hidden"
       >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
 
       {nav && (
-        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-black text-white">
+        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-white text-black">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-2xl hover:underline"
+              className="px-4 cursor-pointer capitalize py-6 text-2xl hover:underline "
             >
               <Link
-                className="hover:text-white"
+                className="hover:text-black"
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth

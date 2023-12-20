@@ -1,5 +1,5 @@
 import { motion} from "framer-motion";
-
+import logo from "../../assets/logos/round.png"
 export const Transplantatie = () => {
   return (
     <>
@@ -28,7 +28,8 @@ export const Transplantatie = () => {
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                   <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                     {/* svg image */}
-                    <svg
+                    <img src={logo} alt="content" />
+                    {/* <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
@@ -39,7 +40,7 @@ export const Transplantatie = () => {
                     >
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                       <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
+                    </svg> */}
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">

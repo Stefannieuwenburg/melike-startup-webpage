@@ -2,10 +2,10 @@
 import { NavMenu } from "../src/componenten/navbar/index";
 import { Transplantatie } from "./pages/transplantatie/index";
 import { Methodes } from "./pages/methodes/index";
-import { Service } from "./pages/service/index";
+import { Step} from "./pages/step/index";
 import { Afspraak } from "./pages/afspraak/index";
 import { Contact } from "./pages/contact/index";
-import { Footer } from './componenten/footer/index';
+import { Footer } from "./componenten/footer/index";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <NavMenu />
       <Transplantatie />
       <Methodes />
-      <Service />
+      <Step />
       <Contact />
       <Afspraak />
       <Footer />

@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-export const Service = () => {
+export const FirstStep = () => {
   return (
     <>
-      <section id="service" className="h-screen w-full ">
+      <section id="firststep" className="h-screen w-full ">
         <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.5, duration: 1.2 }}
+          transition={{ delay: 0.5, duration: 1.0 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
@@ -21,11 +21,12 @@ export const Service = () => {
               <div class="w-12 h-12 bg-indigo-400 rounded-full flex items-center justify-center text-white text-xl">
                 1
               </div>
-              <div className="flex items-center space-x-5 ml-2">
-                <span class="ml-4 font-medium">Step One</span>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Reprehenderit ea natus ad, error illum cum earum! Inventore
+              <div className="pt-1 pb-8">
+                <p className="mb-2 text-lg font-bold">Step 1</p>
+                <p className="text-gray-700">
+                  All recipes are written using certain conventions, which
+                  define the characteristics of common ingredients. The rules
+                  vary from place to place.
                 </p>
               </div>
             </div>

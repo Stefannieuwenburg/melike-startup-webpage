@@ -5,13 +5,12 @@ import { BsInstagram } from "react-icons/bs";
 export const Footer = () => {
   return (
     <>
-      <div id="footer" className="bg-black text-white">
+      <div id="footer" className="bg-[#210e20]  text-white">
         <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
           <div className=" w-full md:w-1/4">
             <h1 className=" font-semibold text-xl pb-4">Go4Hair</h1>
             <p className=" text-sm">
               With Go4Hair you can experience the best hair solutions
-              
             </p>
           </div>
           <div>
@@ -86,8 +85,8 @@ export const Footer = () => {
           <p>
             <p className=" text-center py-4">
               @copyright developed by
-              <span className=" text-brightColor">Stefan</span> | All
-              rights reserved
+              <span className="text-brightColor"> Stefan</span> | All rights
+              reserved
             </p>
           </p>
         </div>

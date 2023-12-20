@@ -13,9 +13,11 @@ colors: {
     Background: "",
     TextColor: "",
 },
-Beige [#ddc3a5]
+Beige [#ddc3a5] zachte huid kleur
 black-brown [#210e20] 
-tan [#e0a96d]
+tan [#e0a96d] geel goud kleur
+
+
 bg-white-off [#f8f3ed]
 gold yelow [#eaa319]
 gold text [#D0AF51]

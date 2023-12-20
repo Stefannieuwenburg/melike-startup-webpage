@@ -29,9 +29,9 @@ export const NavMenu = () => {
   ];
 
   return (
-    <div className="relative flex justify-between items-center w-full h-20 px-4 text-white bg-black ">
+    <div className="relative flex justify-between items-center w-full h-20 px-4 text-white bg-[#210e20]">
       <div>
-        <h1 className="text-2xl ml-2">Go4Hair</h1>
+        <h1 className="text-2xl ml-2 text-[#e0a96d]">Go4Hair</h1>
       </div>
 
       <ul className="hidden md:flex">

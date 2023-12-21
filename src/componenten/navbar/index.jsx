@@ -29,7 +29,7 @@ export const NavMenu = () => {
   ];
 
   return (
-    <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-[#f7f7f7] border-b-2 border-[#d8aa46] ">
+    <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-[#fcfcfc] border-b-2 border-[#d8aa46] ">
       <div>
         {/* <img src={logo} alt="logo" className=" object-fill h-20" /> */}
         <div className="text-3xl ml-2 font-semibold text-black">
@@ -41,7 +41,7 @@ export const NavMenu = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 text-l cursor-pointer capitalize text-primary-300 hover:underline"
+            className="px-4 text-lg cursor-pointer capitalize text-primary-300 hover:underline"
           >
             <Link className="hover:text-black font-semibold" to={link} smooth duration={500}>
               {link}

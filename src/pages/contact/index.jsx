@@ -23,11 +23,13 @@ export const Contact = () => {
                 <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                   <div class="flex flex-col items-center gap-2 p-10 bg-white shadow-main">
                     <span>
-                      <img src={EmailLogo} alt="Email" className="h-15 w-10 m-2" />
+                      <img
+                        src={EmailLogo}
+                        alt="Email"
+                        className="w-full h-14 rounded-md object-cover m-2"
+                      />
                     </span>
-                    <p class="text-2xl font-extrabold text-black">
-                      Email
-                    </p>
+                    <p class="text-2xl font-extrabold text-black">Email</p>
                     <p class="text-base leading-7 text-black">
                       Contact ons per mail
                     </p>
@@ -44,7 +46,7 @@ export const Contact = () => {
                       href="https://wa.me/1XXXXXXXXXX"
                     >
                       <img
-                        className="h-15 w-10 m-2 "
+                        className="w-full h-14 rounded-md object-cover m-2 "
                         alt="Chat on WhatsApp"
                         src={WhatsAppLogo}
                       />

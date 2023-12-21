@@ -7,7 +7,7 @@ export const Methodes = () => {
         class="flex items-center justify-center lg:h-screen"
       >
         <div class="container mx-auto p-4">
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+          <div class="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
             {/* <!-- Replace this with your grid items --> */}
             <div class="bg-white rounded-lg border p-4">
               <img

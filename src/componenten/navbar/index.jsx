@@ -29,10 +29,12 @@ export const NavMenu = () => {
   ];
 
   return (
-    <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-white border-2 border-[#d8aa46] ">
+    <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-[#f7f7f7] border-b-2 border-[#d8aa46] ">
       <div>
-        <img src={logo} alt="logo" className=" object-fill h-20" />
-        {/* <h1 className="text-2xl ml-2 text-[#e0a96d]">Go4Hair</h1> */}
+        {/* <img src={logo} alt="logo" className=" object-fill h-20" /> */}
+        <div className="text-3xl ml-2 font-semibold text-black">
+          Go4<span className="text-[#d8aa46]">Hair</span>
+        </div>
       </div>
 
       <ul className="hidden md:flex">
@@ -41,7 +43,7 @@ export const NavMenu = () => {
             key={id}
             className="px-4 text-l cursor-pointer capitalize text-primary-300 hover:underline"
           >
-            <Link className="hover:text-black" to={link} smooth duration={500}>
+            <Link className="hover:text-black font-semibold" to={link} smooth duration={500}>
               {link}
             </Link>
           </li>
@@ -56,7 +58,7 @@ export const NavMenu = () => {
       </div>
 
       {nav && (
-        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-white text-black">
+        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-[#f7f7f7] text-black">
           {links.map(({ id, link }) => (
             <li
               key={id}

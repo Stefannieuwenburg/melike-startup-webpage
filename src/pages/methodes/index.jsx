@@ -21,10 +21,21 @@ export const Methodes = () => {
                   This is a simple blog card example using Tailwind CSS. You can
                   replace this text with your own blog content.
                 </p>
+                <a class="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
+                  plan een adviesgesprek
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
-              <button class="px-2 py-1 bg-[#e0a96d] text-white rounded-xl hover:bg-gray-400">
-                Read More
-              </button>
             </div>
             <div class="bg-white rounded-lg border p-4">
               <img
@@ -38,10 +49,21 @@ export const Methodes = () => {
                   This is a simple blog card example using Tailwind CSS. You can
                   replace this text with your own blog content.
                 </p>
+                <a class="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
+                  plan een adviesgesprek
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
-              <button class="px-2 py-1 bg-[#e0a96d] text-white rounded-xl hover:bg-gray-400">
-                Read More
-              </button>
             </div>
             <div class="bg-white rounded-lg border p-4">
               <img
@@ -55,10 +77,21 @@ export const Methodes = () => {
                   This is a simple blog card example using Tailwind CSS. You can
                   replace this text with your own blog content.
                 </p>
+                <a class="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
+                  plan een adviesgesprek
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
-              <button class="px-2 py-1 bg-[#e0a96d] text-white rounded-xl hover:bg-gray-400">
-                Read More
-              </button>
             </div>
             <div class="bg-white rounded-lg border p-4">
               <img
@@ -72,10 +105,21 @@ export const Methodes = () => {
                   This is a simple blog card example using Tailwind CSS. You can
                   replace this text with your own blog content.
                 </p>
+                <a class="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
+                  plan een adviesgesprek
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
-              <button class="px-2 py-1 bg-[#e0a96d] text-white rounded-xl hover:bg-gray-400">
-                Read More
-              </button>
             </div>
             {/* <!-- Add more items as needed --> */}
           </div>

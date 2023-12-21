@@ -13,7 +13,7 @@ export const Step = () => {
         }}
         id="step"
       >
-        <div className="px-4 py-16 mx-auto bg-[#ddc3a5]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="  m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
             <div className="lg:py-6 lg:pr-16">
               <div className="flex">
@@ -47,7 +47,7 @@ export const Step = () => {
                   <div className="w-px h-full bg-gray-300" />
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold">Step 1</p>
+                  <p className="mb-2 text-lg font-bold">Stap 1</p>
                   <p className="text-gray-700">
                     All recipes are written using certain conventions, which
                     define the characteristics of common ingredients. The rules
@@ -86,7 +86,7 @@ export const Step = () => {
                   <div className="w-px h-full bg-gray-300" />
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold">Step 2</p>
+                  <p className="mb-2 text-lg font-bold">Stap 2</p>
                   <p className="text-gray-700">
                     The first mate and his Skipper too will do their very best
                     to make the others comfortable in their tropic island nest.
@@ -125,7 +125,7 @@ export const Step = () => {
                   <div className="w-px h-full bg-gray-300" />
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold">Step 3</p>
+                  <p className="mb-2 text-lg font-bold">Stap 3</p>
                   <p className="text-gray-700">
                     Tell them I hate them. Is the Space Pope reptilian!? Tell
                     her she looks thin. Hello, little man. I will destroy you!
@@ -163,7 +163,7 @@ export const Step = () => {
                   <div className="w-px h-full bg-gray-300" />
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold">Step 4</p>
+                  <p className="mb-2 text-lg font-bold">Stap 4</p>
                   <p className="text-gray-700">
                     If one examines precultural libertarianism, one is faced
                     with a choice: either accept rationalism or conclude that

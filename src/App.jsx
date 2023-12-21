@@ -14,8 +14,8 @@ const App = () => {
       <Transplantatie />
       <Methodes />
       <Step />
-      <Contact />
       <Afspraak />
+      <Contact />
       <Footer />
     </>
   );

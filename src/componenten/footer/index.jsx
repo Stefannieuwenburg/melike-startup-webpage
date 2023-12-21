@@ -5,66 +5,66 @@ import { BsInstagram } from "react-icons/bs";
 export const Footer = () => {
   return (
     <>
-      <div id="footer" className="bg-[#210e20]  text-white">
+      <div id="footer" className="bg-[#f7f7f7] text-black">
         <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
           <div className=" w-full md:w-1/4">
-            <h1 className=" font-semibold text-xl pb-4">Go4Hair</h1>
+            <div className="text-2xl m-2 font-semibold text-black">
+              Go4<span className="text-[#d8aa46]">Hair</span>
+            </div>
             <p className=" text-sm">
-              With Go4Hair you can experience the best hair solutions
+              Met Go4Hair ervaar je de beste haar oplossingen
             </p>
           </div>
           <div>
             <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">
-              Destination
+              Behandelmethodes
             </h1>
             <nav className=" flex flex-col gap-2">
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Paris, France
+                behandeling 1
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Dubai, UAE
+                behandeling 2
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Venice, Italy
+                behandeling 3
               </a>
             </nav>
           </div>
           <div>
-            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">About</h1>
+            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact</h1>
             <nav className=" flex flex-col gap-2">
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Contact Us
+                Info
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Testimonial
+                WhatsApp
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Rating
+                Afspraak maken
               </a>
             </nav>
           </div>
           <div>
-            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">
-              Follow Us
-            </h1>
+            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Media</h1>
             <nav className=" flex flex-col md:items-center gap-2">
               <BsFacebook
                 size={25}

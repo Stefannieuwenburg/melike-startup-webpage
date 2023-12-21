@@ -17,34 +17,34 @@ export const Contact = () => {
         className="container"
       >
         <section class="bg-white">
-          <div class="flex flex-col mx-auto bg-white">
+          <div class="flex flex-col m-4 bg-white">
             <div>
-              <div class=" flex flex-col items-center gap-6 ">
+              <div class=" flex flex-col items-center gap-4 ">
                 <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+                  <div class="flex flex-col items-center gap-2 p-10 bg-white shadow-main">
                     <span>
-                      <img src={EmailLogo} alt="Email" className="h-20 w-20" />
+                      <img src={EmailLogo} alt="Email" className="h-15 w-10 m-2" />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-2xl font-extrabold text-black">
                       Email
                     </p>
-                    <p class="text-base leading-7 text-dark-grey-600">
-                      Contact us at
+                    <p class="text-base leading-7 text-black">
+                      Contact ons per mail
                     </p>
                     <a
-                      class="text-lg font-bold text-purple-blue-500"
+                      class="text-lg font-bold text-black"
                       href="mailto: hello@loopple.com"
                     >
-                      hello@loopple.com
+                      hello@melike.com
                     </a>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+                  <div class="flex flex-col items-center gap-2 p-10 bg-white shadow-main">
                     <a
                       aria-label="Chat on WhatsApp"
                       href="https://wa.me/1XXXXXXXXXX"
                     >
                       <img
-                        className="h-20 w-20 "
+                        className="h-15 w-10 m-2 "
                         alt="Chat on WhatsApp"
                         src={WhatsAppLogo}
                       />
@@ -53,7 +53,7 @@ export const Contact = () => {
                       <a />
                     </a>
                     <p class="text-base leading-7 text-dark-grey-600">
-                      Reach out to us by WhatsApp
+                      Zoek contact via WhatsApp
                     </p>
                     <a
                       class="text-lg font-bold text-gray-800 hover:text-gray-600"

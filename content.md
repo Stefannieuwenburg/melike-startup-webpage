@@ -10,8 +10,11 @@ bg-gradient-to-r from-[#bf953f] to-[#fcf6ba] Gold style
 Url: https://fonts.google.com/specimen/Saira
 
 colors: {
-    Background: "",
-    TextColor: "",
+    BackgroundHeader: "#f2f2f2",
+    Backgroundgrid: "#f7f7f7",
+    TextColor: "#000000",
+    logotextcolor:'d4ac7c'
+    BackgroundFooter: "#f2f2f2",
 },
 Beige [#ddc3a5] zachte huid kleur
 black-brown [#210e20] 
@@ -22,7 +25,7 @@ bg-white-off [#f8f3ed]
 gold yelow [#eaa319]
 gold text [#D0AF51]
 bg-gold looks [#d8aa46]
-bg-black ?? [#181818]
+
 
 # menu:
 
@@ -40,8 +43,8 @@ https://www.freepik.com/search?format=search&query=hair%20dokter
 
 
 # Haartransplantatie:
-
-
+button: plan een adviesgesprek
+button: informatie over consult
 # behandelmethodes:
 
 

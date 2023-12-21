@@ -57,13 +57,14 @@ export const Transplantatie = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis debitis amet dignissimos vel, officia quam optio sint
-                    ea illo aperiam cumque nulla ad corrupti soluta neque
-                    laboriosam mollitia voluptate odio! Fusa mauris justo
+                    Haartransplantatie is een alom bekend middel om haaruitval
+                    of kaalheid te behandelen. Haartransplantatie behandelingen
+                    worden vaak toegepast bij dun haar, inhammen en het opvullen
+                    van kale plekken. Ons ervaren team van deskundigen voert
+                    deze behandelingen met precisie en zorgvuldigheid uit.
                   </p>
                   <a class="text-[#e0a96d] inline-flex items-center">
-                    Learn More
+                    plan een adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"

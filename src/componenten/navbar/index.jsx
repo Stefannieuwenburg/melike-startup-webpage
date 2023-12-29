@@ -1,32 +1,10 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { Data } from "./data"
 import logo from "../../assets/logos/orglogo.jpg"
 export const NavMenu = () => {
   const [nav, setNav] = useState(false);
-
-  const links = [
-    {
-      id: 1,
-      link: "Haartransplantatie",
-    },
-    {
-      id: 2,
-      link: "Behandelmethodes",
-    },
-    {
-      id: 3,
-      link: "Hoe helpen wij",
-    },
-    {
-      id: 4,
-      link: "Afspraak maken",
-    },
-    {
-      id: 5,
-      link: "Contact",
-    },
-  ];
 
   return (
     <div className="relative flex justify-between items-center w-full h-20 px-4 text-black bg-[#fcfcfc] border-b-2 border-[#d8aa46] ">
@@ -38,7 +16,7 @@ export const NavMenu = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {Data.map(({ id, link }) => (
           <li
             key={id}
             className="px-4 text-lg cursor-pointer capitalize text-primary-300 hover:underline"
@@ -59,7 +37,7 @@ export const NavMenu = () => {
 
       {nav && (
         <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-[#f7f7f7] text-black">
-          {links.map(({ id, link }) => (
+          {Data.map(({ id, link }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-2xl hover:underline "

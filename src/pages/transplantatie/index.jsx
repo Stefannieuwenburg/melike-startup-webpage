@@ -12,7 +12,8 @@ export const Transplantatie = () => {
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
         }}
-        id="transplantatie"
+        id="Haartransplantatie"
+        className="py-12"
       >
         <section class=" text-gray-600 body-font">
           <div class=" Container px-5 py-24 mx-auto flex flex-col">
@@ -59,8 +60,8 @@ export const Transplantatie = () => {
                     Haartransplantatie is een alom bekend middel om haaruitval
                     of kaalheid te behandelen. Haartransplantatie behandelingen
                     worden vaak toegepast bij dun haar, inhammen en het opvullen
-                    van kale plekken. Onze ervaren deskundigen voert
-                    deze behandelingen met precisie en zorgvuldigheid uit. Voor
+                    van kale plekken. Onze ervaren deskundigen voert deze
+                    behandelingen met precisie en zorgvuldigheid uit. Voor
                     informatie over haartransplantatie behandelingen kunt u ook
                     contact opnemen via mail of whatsapp.
                   </p>

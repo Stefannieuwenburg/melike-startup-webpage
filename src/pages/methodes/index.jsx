@@ -3,7 +3,7 @@ export const Methodes = () => {
   return (
     <>
       <section
-        id="methodes"
+        id="Behandelmethodes"
         class="flex items-center justify-center lg:h-screen"
       >
         <div class="container mx-auto p-4">

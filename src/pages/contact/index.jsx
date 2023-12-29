@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
-import WhatsAppLogo from "../../assets/logos/whatsapplogo.png";
-import EmailLogo from '../../assets/logos/emaillogo.png'
+import { ImWhatsapp } from "react-icons/im";
+import { FaStethoscope } from "react-icons/fa6";
+import { IoIosAirplane } from "react-icons/io";
+import { CgMail } from "react-icons/cg";
 export const Contact = () => {
   return (
     <>
@@ -13,63 +15,108 @@ export const Contact = () => {
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
         }}
-        id="contact"
-        className="container"
+        id="Contact"
+        className="py-12 "
       >
-        <section class="bg-white">
-          <div class="flex flex-col m-4 bg-white">
-            <div>
-              <div class=" flex flex-col items-center gap-4 ">
-                <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                  <div class="flex flex-col items-center gap-2 p-10 bg-white shadow-main">
-                    <span>
-                      <img
-                        src={EmailLogo}
-                        alt="Email"
-                        className="w-full h-14 rounded-md object-cover m-2"
-                      />
-                    </span>
-                    <p class="text-2xl font-extrabold text-black">Email</p>
-                    <p class="text-base leading-7 text-black">
-                      Contact ons per mail
-                    </p>
-                    <a
-                      class="text-lg font-bold text-black"
-                      href="mailto: hello@loopple.com"
-                    >
-                      hello@melike.com
-                    </a>
+        <div className="container mx-auto md:px-6">
+          <section className="mb-32">
+            <div className="flex flex-wrap">
+              <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
+                <h2 className="mb-6 text-2xl font-bold">
+                  Waarom Go4<span className="text-[#d8aa46]">Hair</span>
+                </h2>
+
+                <p className="mb-12 text-neutral-500 dark:text-neutral-300">
+                  Met Go4Hair ervaar je de beste <br />
+                  haar transplantatie en services
+                </p>
+              </div>
+
+              <div className="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
+                <div className="flex flex-wrap">
+                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
+                    <div className="flex">
+                      <div className="shrink-0">
+                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <CgMail
+                            className="hover:cursor-pointer"
+                            size={35}
+                            style={{ color: "Red" }}
+                          />
+                        </div>
+                      </div>
+                      <div className="ml-4 grow">
+                        <p className="mb-3 font-bold text-lg">Email Contact</p>
+                        <p className="text-neutral-500 dark:text-neutral-300">
+                          Pellentesque mollis, metus nec fringilla aliquam.
+                          Donec consequat orci quis volutpat imperdiet.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="flex flex-col items-center gap-2 p-10 bg-white shadow-main">
-                    <a
-                      aria-label="Chat on WhatsApp"
-                      href="https://wa.me/1XXXXXXXXXX"
-                    >
-                      <img
-                        className="w-full h-14 rounded-md object-cover m-2 "
-                        alt="Chat on WhatsApp"
-                        src={WhatsAppLogo}
-                      />
-                      {/* Je eigen link maken
-                      Gebruik https://wa.me/<number> waarbij <number> een volledig telefoonnummer is in internationale notatie. Gebruik geen nullen, haakjes of streepjes in het telefoonnummer in internationale notatie. */}
-                      <a />
-                    </a>
-                    <p class="text-base leading-7 text-dark-grey-600">
-                      Zoek contact via WhatsApp
-                    </p>
-                    <a
-                      class="text-lg font-bold text-gray-800 hover:text-gray-600"
-                      href="tel:+516-486-5135"
-                    >
-                      +xxxx-xxx-xx
-                    </a>
+                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
+                    <div className="flex">
+                      <div className="shrink-0">
+                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <ImWhatsapp
+                            className="hover:cursor-pointer"
+                            size={35}
+                            style={{ color: "Green" }}
+                          />
+                        </div>
+                      </div>
+                      <div className="ml-4 grow">
+                        <p className="mb-3 font-bold text-lg">
+                          whatsapp Contact
+                        </p>
+                        <p className="text-neutral-500 dark:text-neutral-300">
+                          Magna lacus iaculis elit, quis pharetra varius. Aenean
+                          lectus ex, placerat id tellus in eros.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
+                    <div className="flex">
+                      <div className="shrink-0">
+                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <IoIosAirplane size={35} style={{ color: "blue" }} />
+                        </div>
+                      </div>
+                      <div className="ml-4 grow">
+                        <p className="mb-3 font-bold text-lg">
+                          Snellen Behandeling
+                        </p>
+                        <p className="text-neutral-500 dark:text-neutral-300">
+                          Pellentesque varius ex vel consequat quis. Sed mauris
+                          ex, imperdiet sit amet nisl ac, ultrices.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
+                    <div className="flex">
+                      <div className="shrink-0">
+                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <FaStethoscope size={35} style={{ color: "Black" }} />
+                        </div>
+                      </div>
+                      <div className="ml-4 grow">
+                        <p className="mb-3 font-bold text-lg">Goede service</p>
+                        <p className="text-neutral-500 dark:text-neutral-300">
+                          Vestibulum gravida iaculis nisl, vel lobortis eros.
+                          Praesent vulputate lacus bibendum augue.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <html></html>
+          </section>
+        </div>
       </motion.div>
     </>
   );

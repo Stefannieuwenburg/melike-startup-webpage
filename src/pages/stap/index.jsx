@@ -11,7 +11,8 @@ export const Step = () => {
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
         }}
-        id="step"
+        id="Hoe helpen wij"
+        className="py-12"
       >
         <div className="  m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-6 row-gap-10 lg:grid-cols-2">

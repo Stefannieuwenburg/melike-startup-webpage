@@ -1,19 +1,16 @@
 import { BsFacebook } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
-
+import { ImWhatsapp } from "react-icons/im";
+import { CgMail } from "react-icons/cg";
 export const Footer = () => {
   return (
     <>
       <div id="footer" className="bg-[#f7f7f7] text-black">
         <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
           <div className=" w-full md:w-1/4">
-            <div className="text-2xl m-2 font-semibold text-black">
+            <div className="py-20 text-3xl font-semibold text-black">
               Go4<span className="text-[#d8aa46]">Hair</span>
             </div>
-            <p className=" text-sm">
-              Met Go4Hair ervaar je de beste haar oplossingen
-            </p>
           </div>
           <div>
             <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">
@@ -47,7 +44,7 @@ export const Footer = () => {
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                Info
+                Email
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
@@ -64,19 +61,22 @@ export const Footer = () => {
             </nav>
           </div>
           <div>
-            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Media</h1>
-            <nav className=" flex flex-col md:items-center gap-2">
+            <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-2">Media</h1>
+            <nav className=" flex flex-col items-start md:items-center gap-2">
               <BsFacebook
-                size={25}
-                className="hover:text-brightColor transition-all cursor-pointer"
+                size={30}
+                className="hover:cursor-pointer"
+                style={{ color: "blue" }}
               />
-              <RiTwitterXFill
-                size={25}
-                className=" hover:text-brightColor transition-all cursor-pointer"
+              <ImWhatsapp
+                className="hover:cursor-pointer"
+                size={30}
+                style={{ color: "Green" }}
               />
-              <BsInstagram
-                size={25}
-                className=" hover:text-brightColor transition-all cursor-pointer"
+              <CgMail
+                className="hover:cursor-pointer"
+                size={30}
+                style={{ color: "Red" }}
               />
             </nav>
           </div>

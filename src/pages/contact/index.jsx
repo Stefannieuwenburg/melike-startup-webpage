@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+
 import { ImWhatsapp } from "react-icons/im";
 import { FaStethoscope } from "react-icons/fa6";
 import { IoIosAirplane } from "react-icons/io";
@@ -6,20 +6,9 @@ import { CgMail } from "react-icons/cg";
 export const Contact = () => {
   return (
     <>
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.2, duration: 1.2 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-        id="Contact"
-        className="py-12 "
-      >
+      <section id="Contact" className="py-20">
         <div className="container mx-auto md:px-6">
-          <section className="mb-32">
+          <div className="mb-32">
             <div className="flex flex-wrap">
               <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
                 <h2 className="mb-6 text-2xl font-bold">
@@ -27,11 +16,10 @@ export const Contact = () => {
                 </h2>
 
                 <p className="mb-12 text-neutral-500 dark:text-neutral-300">
-                  Met Go4Hair ervaar je de beste <br />
-                  haar transplantatie en services
+                  Met Go4Hair ervaar je de beste haar transplantatie <br />
+                  met controle en goede na zorg 
                 </p>
               </div>
-
               <div className="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
                 <div className="flex flex-wrap">
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
@@ -48,8 +36,8 @@ export const Contact = () => {
                       <div className="ml-4 grow">
                         <p className="mb-3 font-bold text-lg">Email Contact</p>
                         <p className="text-neutral-500 dark:text-neutral-300">
-                          Pellentesque mollis, metus nec fringilla aliquam.
-                          Donec consequat orci quis volutpat imperdiet.
+                          Email contact voor het maken van een afspraak of
+                          vragen over de behandeling
                         </p>
                       </div>
                     </div>
@@ -70,8 +58,8 @@ export const Contact = () => {
                           whatsapp Contact
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-300">
-                          Magna lacus iaculis elit, quis pharetra varius. Aenean
-                          lectus ex, placerat id tellus in eros.
+                          Whatsapp contact voor het maken van een afspraak of vragen over
+                          de behandeling
                         </p>
                       </div>
                     </div>
@@ -86,11 +74,10 @@ export const Contact = () => {
                       </div>
                       <div className="ml-4 grow">
                         <p className="mb-3 font-bold text-lg">
-                          Snellen Behandeling
+                          Snellen aanvraag
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-300">
-                          Pellentesque varius ex vel consequat quis. Sed mauris
-                          ex, imperdiet sit amet nisl ac, ultrices.
+                          wij kunnen op zeer korte tijd een behandeling aanvragen
                         </p>
                       </div>
                     </div>
@@ -106,8 +93,7 @@ export const Contact = () => {
                       <div className="ml-4 grow">
                         <p className="mb-3 font-bold text-lg">Goede service</p>
                         <p className="text-neutral-500 dark:text-neutral-300">
-                          Vestibulum gravida iaculis nisl, vel lobortis eros.
-                          Praesent vulputate lacus bibendum augue.
+                          wij leveren een goede service en na zorg
                         </p>
                       </div>
                     </div>
@@ -115,9 +101,9 @@ export const Contact = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
-      </motion.div>
+      </section>
     </>
   );
 };

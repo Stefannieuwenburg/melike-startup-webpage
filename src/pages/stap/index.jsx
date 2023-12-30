@@ -1,19 +1,8 @@
-import { motion } from "framer-motion";
+
 export const Step = () => {
   return (
     <>
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.2, duration: 1.2 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-        id="Hoe helpen wij"
-        className="py-12"
-      >
+      <section id="Hoe helpen wij" className="py-16">
         <div className="  m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
             <div className="lg:py-6 lg:pr-16">
@@ -50,9 +39,8 @@ export const Step = () => {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Stap 1</p>
                   <p className="text-gray-700">
-                    All recipes are written using certain conventions, which
-                    define the characteristics of common ingredients. The rules
-                    vary from place to place.
+                    De eerst consultatie is gratis mogelijk online of op een
+                    locatie naar uw keuze
                   </p>
                 </div>
               </div>
@@ -89,9 +77,10 @@ export const Step = () => {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Stap 2</p>
                   <p className="text-gray-700">
-                    The first mate and his Skipper too will do their very best
-                    to make the others comfortable in their tropic island nest.
-                    Michael Knight a young loner.
+                    tijdens de consultatie geven wij antwoorden op uw vragen
+                    over de behandeling. En luisteren wij naar de wensen. Wij
+                    vragen over uw medicatie en medische situatie en maken fotos
+                    om te delen met de arts in Istanbul voor de beste resultaten.
                   </p>
                 </div>
               </div>
@@ -128,8 +117,10 @@ export const Step = () => {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Stap 3</p>
                   <p className="text-gray-700">
-                    Tell them I hate them. Is the Space Pope reptilian!? Tell
-                    her she looks thin. Hello, little man. I will destroy you!
+                    Het Maken van een online afspraak met de arts in Istanbul om
+                    te spreken over de vewachte resultaten van de analyse van de
+                    foto,s Als u blij bent met het geanticipeerde resultaat,
+                    gaan wij de behandeling inplannen, met hotel en transfer.
                   </p>
                 </div>
               </div>
@@ -166,9 +157,12 @@ export const Step = () => {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Stap 4</p>
                   <p className="text-gray-700">
-                    If one examines precultural libertarianism, one is faced
-                    with a choice: either accept rationalism or conclude that
-                    context is a product.
+                    In het eerste gedeelte van de dag worden de haren geoogst.
+                    In het tweede gedeelte van de dag worden de haren geplaatst.
+                    Na afloop van de behandeling ontvangt u uw medicatie met
+                    hierbij het innameschema. Vervolgens wordt u naar uw hotel
+                    gebracht waar u in alle rust kunt bijkomen van uw
+                    behandeling.
                   </p>
                 </div>
               </div>
@@ -195,7 +189,11 @@ export const Step = () => {
                 </div>
                 <div className="pt-1">
                   <p className="mb-2 text-lg font-bold">Success</p>
-                  <p className="text-gray-700" />
+                  <p className="text-gray-700">
+                    Nazorg en control u krijgt instructie over het wassing process en
+                    het controle momenten. Zijn er na de behandeling nog vragen zijn wij altijd beschikbaar voor alle
+                    vragen.
+                  </p>
                 </div>
               </div>
             </div>
@@ -208,7 +206,7 @@ export const Step = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </section>
     </>
   );
 };

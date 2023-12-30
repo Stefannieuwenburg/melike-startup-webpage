@@ -21,19 +21,31 @@ export const Footer = () => {
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                behandeling 1
+                Follicular Unit Transplantation (FUT)
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                behandeling 2
+                Follicular Unit Extraction (FUE)
               </a>
               <a
                 className=" hover:text-brightColor transition-all cursor-pointer"
                 href="/"
               >
-                behandeling 3
+                Sapphire (FUE)
+              </a>
+              <a
+                className=" hover:text-brightColor transition-all cursor-pointer"
+                href="/"
+              >
+                Ice (FUE)
+              </a>
+              <a
+                className=" hover:text-brightColor transition-all cursor-pointer"
+                href="/"
+              >
+                Direct Hair Implantation (DHI)
               </a>
             </nav>
           </div>

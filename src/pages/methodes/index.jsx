@@ -1,3 +1,8 @@
+import image1 from "../../assets/images/fue/fue.jpg";
+import image2 from "../../assets/images/fut/fut.jpg";
+import image3 from "../../assets/images/ice fue/ice.jpg";
+import image4 from "../../assets/images/saphire fue/saphire.jpg";
+import image5 from "../../assets/images/tomuse dhi/tomuse.jpg";
 
 export const Methodes = () => {
   return (
@@ -10,7 +15,7 @@ export const Methodes = () => {
           <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
             <div className="bg-white rounded-lg border p-4">
               <img
-                src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+                src={image1}
                 alt="Placeholder Image"
                 className="w-full h-48 rounded-md object-cover"
               />
@@ -46,7 +51,7 @@ export const Methodes = () => {
             </div>
             <div className="bg-white rounded-lg border p-4">
               <img
-                src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+                src={image2}
                 alt="Placeholder Image"
                 className="w-full h-48 rounded-md object-cover"
               />
@@ -81,7 +86,7 @@ export const Methodes = () => {
             </div>
             <div className="bg-white rounded-lg border p-4">
               <img
-                src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+                src={image4}
                 alt="Placeholder Image"
                 className="w-full h-48 rounded-md object-cover"
               />
@@ -112,7 +117,7 @@ export const Methodes = () => {
             </div>
             <div className="bg-white rounded-lg border p-4">
               <img
-                src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+                src={image3}
                 alt="Placeholder Image"
                 className="w-full h-48 rounded-md object-cover"
               />
@@ -142,7 +147,7 @@ export const Methodes = () => {
             </div>
             <div className="bg-white rounded-lg border p-4">
               <img
-                src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+                src={image5}
                 alt="Placeholder Image"
                 className="w-full h-48 rounded-md object-cover"
               />

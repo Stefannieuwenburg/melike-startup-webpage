@@ -1,4 +1,4 @@
-
+import image from "../../assets/images/contact.jpg"
 export const Step = () => {
   return (
     <>
@@ -80,7 +80,8 @@ export const Step = () => {
                     tijdens de consultatie geven wij antwoorden op uw vragen
                     over de behandeling. En luisteren wij naar de wensen. Wij
                     vragen over uw medicatie en medische situatie en maken fotos
-                    om te delen met de arts in Istanbul voor de beste resultaten.
+                    om te delen met de arts in Istanbul voor de beste
+                    resultaten.
                   </p>
                 </div>
               </div>
@@ -190,17 +191,17 @@ export const Step = () => {
                 <div className="pt-1">
                   <p className="mb-2 text-lg font-bold">Success</p>
                   <p className="text-gray-700">
-                    Nazorg en control u krijgt instructie over het wassing process en
-                    het controle momenten. Zijn er na de behandeling nog vragen zijn wij altijd beschikbaar voor alle
-                    vragen.
+                    Nazorg en control u krijgt instructie over het wassing
+                    process en het controle momenten. Zijn er na de behandeling
+                    nog vragen zijn wij altijd beschikbaar voor alle vragen.
                   </p>
                 </div>
               </div>
             </div>
             <div className="relative">
               <img
-                className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-                src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                className="inset-0 object-fill h-full w-full object-bottom rounded shadow-lg  lg:absolute lg:h-full"
+                src={image}
                 alt=""
               />
             </div>

@@ -1,75 +1,117 @@
-
+import Button from "../../shared/button";
 import { ImWhatsapp } from "react-icons/im";
 import { CgMail } from "react-icons/cg";
 export const Contact = () => {
   return (
     <>
-      <section id="Contact" className="py-20">
+      <section id="Contact" className="py-20 text-center items-center">
+        <h2 className="mb-6 text-2xl font-bold mx-14  ">
+          <p className="text-xl font-bold text-white mb-4 bg-[#9b7d3e] w-full rounded-xl ">
+            Contact
+          </p>
+          Go4<span className="text-[#d8aa46]">Hair</span>
+        </h2>
         <div className="container mx-auto md:px-6">
           <div className="mb-32">
             <div className="flex flex-wrap">
               <div className="mb-6 w-full shrink-0 grow-0 basis-auto:mb-0 lg:w-4/12">
-                <h2 className="text-3xl font-bold mb-4">Contact</h2>
-                <div className="w-12 h-1 bg-[#e0a96d] rounded ml-4 mt-2 mb-2"></div>
-                <a className="p-10 flex items-center cursor-pointer text-gray-700 text-xl">
-                  Waarom Go4Hair 
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                {/* form */}
+                <section class="container text-gray-600 body-font relative">
+                  <div class=" px-5 py-24 mx-auto">
+                    <p className="mb-8 text-gray-600 font-bold text-xl">
+                      Contact bericht
+                    </p>
+                    <div class="lg:w-1/2 md:w-1/2 mx-auto">
+                      <div class="flex flex-wrap -m-4">
+                        <div class="p-2 w-1/2">
+                          <div class="relative">
+                            <label
+                              for="name"
+                              class="leading-7 text-sm text-gray-600"
+                            >
+                              Name
+                            </label>
+                            <input
+                              type="text"
+                              id="name"
+                              name="name"
+                              class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-focus-[#d8aa46]:bg-white focus:ring-2 focus:ring-[#d8aa46] text-base outline-none text-gray-700 leading-8 transition-colors duration-200 ease-in-out"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2 w-1/2">
+                          <div class="relative">
+                            <label
+                              for="email"
+                              class="leading-7 text-sm text-gray-600"
+                            >
+                              Email
+                            </label>
+                            <input
+                              type="email"
+                              id="email"
+                              name="email"
+                              class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#d8aa46] focus:bg-white focus:ring-2 focus:ring-[#d8aa46] text-base outline-none text-gray-700  leading-8 transition-colors duration-200 ease-in-out"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2 w-full">
+                          <div class="relative">
+                            <label
+                              for="message"
+                              class="leading-7 text-sm text-gray-600"
+                            >
+                              Message
+                            </label>
+                            <textarea
+                              id="message"
+                              name="message"
+                              class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#d8aa46] focus:bg-white focus:ring-2 focus:ring-[#d8aa46] h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="p-2 w-full">
+                          <Button text="send" />
+                        </div>
+                        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                {/* form */}
               </div>
-              <div className="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-                <div className="flex flex-wrap">
-                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
-                    <div className="flex">
-                      <div className="shrink-0">
-                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
-                          <CgMail
-                            className="hover:cursor-pointer"
-                            size={35}
-                            style={{ color: "Red" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="ml-4 grow">
-                        <p className="mb-3 font-bold text-lg">Email Contact</p>
-                        <p className="text-neutral-500 dark:text-neutral-300">
-                          Email contact voor het maken van een afspraak of
-                          vragen over de behandeling
-                        </p>
-                      </div>
-                    </div>
+              <div>
+                <div className="mt-12">
+                  <div className="p-4 inline-block rounded-md bg-primary-100 text-primary">
+                    <CgMail
+                      className="hover:cursor-pointer"
+                      size={35}
+                      style={{ color: "Red" }}
+                    />
                   </div>
-                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
-                    <div className="flex">
-                      <div className="shrink-0">
-                        <div className="mb-6 inline-block rounded-md bg-primary-100 p-4 text-primary">
-                          <ImWhatsapp
-                            className="hover:cursor-pointer"
-                            size={35}
-                            style={{ color: "Green" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="ml-4 grow">
-                        <p className="mb-3 font-bold text-lg">
-                          whatsapp Contact
-                        </p>
-                        <p className="text-neutral-500 dark:text-neutral-300">
-                          Whatsapp contact voor het maken van een afspraak of
-                          vragen over de behandeling
-                        </p>
-                      </div>
-                    </div>
+                </div>
+                <div className="">
+                  <p className="mb-3 font-bold text-lg">Email Contact</p>
+                  <p className="text-neutral-500 dark:text-neutral-300">
+                    Email contact voor het maken van een afspraak of vragen over
+                    de behandeling
+                  </p>
+                </div>
+                <div>
+                  <div className="mt-8 inline-block rounded-md bg-primary-100 text-primary">
+                    <ImWhatsapp
+                      className="hover:cursor-pointer"
+                      size={35}
+                      style={{ color: "Green" }}
+                    />
                   </div>
+                </div>
+                <div className="ml-4 grow">
+                  <p className="mb-3 font-bold text-lg">whatsapp Contact</p>
+                  <p className="text-neutral-500 dark:text-neutral-300">
+                    Whatsapp contact voor het maken van een afspraak of vragen
+                    over de behandeling
+                  </p>
                 </div>
               </div>
             </div>

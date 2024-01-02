@@ -20,7 +20,12 @@ export const NavMenu = () => {
             key={id}
             className="px-4 text-lg cursor-pointer capitalize text-primary-300 hover:underline"
           >
-            <Link className="hover:text-black font-semibold" to={link} smooth duration={500}>
+            <Link
+              className="hover:text-[#9b7d3e] font-semibold"
+              to={link}
+              smooth
+              duration={500}
+            >
               {link}
             </Link>
           </li>
@@ -29,13 +34,13 @@ export const NavMenu = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-black md:hidden"
+        className="cursor-pointer pr-4 z-10 text-[#9b7d3e] md:hidden"
       >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
 
       {nav && (
-        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-[#f7f7f7] text-black">
+        <ul className="absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-[#f7f7f7] text-[#9b7d3e]">
           {Data.map(({ id, link }) => (
             <li
               key={id}

@@ -9,7 +9,7 @@ export const Methodes = () => {
     <>
       <section
         id="Behandelmethodes"
-        className="flex items-center justify-center py-2"
+        className="flex items-center justify-center py-2 bg-[#f7f7f7] "
       >
         <div className="container mx-auto p-4">
           <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
@@ -69,7 +69,7 @@ export const Methodes = () => {
                   een kortere herstelperiode dan FUT.
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                  plan een adviesgesprek
+                  Plan een gratis adviesgesprek
                   <svg
                     fill="none"
                     stroke="currentColor"

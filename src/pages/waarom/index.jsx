@@ -12,7 +12,7 @@ export const Waarom = () => {
       >
         <div className="container mx-auto p-4">
           <h2 className="mb-6 text-2xl font-bold ">
-            <p className="text-4xl font-bold text-white m-2 bg-[#9b7d3e] w-full ">
+            <p className="text-2xl  text-white m-2 bg-[#9b7d3e] w-full rounded-xl ">
               Waarom
             </p>
             Go4<span className="text-[#d8aa46]">Hair</span>
@@ -30,7 +30,7 @@ export const Waarom = () => {
                   transplantatie
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                  plan een adviesgesprek
+                  plan een gratis adviesgesprek
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -53,10 +53,10 @@ export const Waarom = () => {
               />
               <div className="px-1 py-4">
                 <p className="text-gray-700 text-base font-normal">
-                  uw betrouwbare partner in haartransplantatiediensten
+                  Uw betrouwbare partner in haartransplantatiediensten
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                  plan een adviesgesprek
+                  plan een gratis adviesgesprek
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -79,10 +79,11 @@ export const Waarom = () => {
               />
               <div className="px-1 py-4">
                 <p className="text-gray-700 text-base">
-                  Online of face to face gratis eerste consultatie
+                  Inclusief in de prijs u ontvangt drie overnachtingen in een
+                  hotel en privétransfer van en naar het vliegveld
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
-                  plan een adviesgesprek
+                  plan een gratis adviesgesprek
                   <svg
                     fill="none"
                     stroke="currentColor"

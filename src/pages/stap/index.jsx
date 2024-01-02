@@ -3,7 +3,7 @@ export const Step = () => {
   return (
     <>
       <section id="Hoe helpen wij" className="py-16">
-        <div className="  m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
             <div className="lg:py-6 lg:pr-16">
               <div className="flex">
@@ -200,7 +200,7 @@ export const Step = () => {
             </div>
             <div className="relative">
               <img
-                className="inset-0 object-fill h-full w-full object-bottom rounded shadow-lg  lg:absolute lg:h-full"
+                className="object-bottom rounded shadow-lg  "
                 src={image}
                 alt=""
               />

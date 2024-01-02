@@ -17,7 +17,7 @@ export const Methodes = () => {
               <img
                 src={image1}
                 alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
+                className=" rounded-md object-cover"
               />
               <div className="px-1 py-4">
                 <div className="font-bold text-xl mb-2">
@@ -53,7 +53,7 @@ export const Methodes = () => {
               <img
                 src={image2}
                 alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
+                className=" rounded-md object-cover"
               />
               <div className="px-1 py-4">
                 <div className="font-bold text-xl mb-2">
@@ -88,7 +88,7 @@ export const Methodes = () => {
               <img
                 src={image4}
                 alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
+                className=" rounded-md object-cover"
               />
               <div className="px-1 py-4">
                 <div className="font-bold text-xl mb-2">Sapphire FUE</div>
@@ -100,7 +100,7 @@ export const Methodes = () => {
                   en minder kans op beschadiging van de follikels.
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
-                  plan een adviesgesprek
+                  Plan een gratis advies gesprek
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -119,7 +119,7 @@ export const Methodes = () => {
               <img
                 src={image3}
                 alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
+                className=" rounded-md object-cover"
               />
               <div className="px-1 py-4">
                 <div className="font-bold text-xl mb-2">Ice FUE</div>
@@ -130,7 +130,7 @@ export const Methodes = () => {
                   voor de patiënt tijdens de procedure.
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
-                  plan een adviesgesprek
+                  Plan een gratis advies gesprek
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -149,7 +149,7 @@ export const Methodes = () => {
               <img
                 src={image5}
                 alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
+                className=" rounded-md object-cover"
               />
               <div className="px-1 py-4">
                 <div className="font-bold text-xl mb-2">
@@ -165,7 +165,7 @@ export const Methodes = () => {
                   follikels en minder littekens.
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                  plan een adviesgesprek
+                  Plan een gratis advies gesprek
                   <svg
                     fill="none"
                     stroke="currentColor"

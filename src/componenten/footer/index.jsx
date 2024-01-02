@@ -5,12 +5,13 @@ import { CgMail } from "react-icons/cg";
 export const Footer = () => {
   return (
     <>
-      <div id="footer" className="bg-[#f7f7f7] text-black">
+      <div id="Informatie" className="bg-[#f7f7f7] text-black">
         <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
-          <div className=" w-full md:w-1/4">
-            <div className="py-20 text-3xl font-semibold text-black">
+          <div className=" w-full md:w-1/4 place-items-center justify-center">
+            <h2 className="mb-6 text-2xl font-bold">
               Go4<span className="text-[#d8aa46]">Hair</span>
-            </div>
+            </h2>
+            <div className="w-12 h-1 bg-[#e0a96d] rounded ml-4 mt-2 mb-2"></div>
           </div>
           <div>
             <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">
@@ -75,10 +76,10 @@ export const Footer = () => {
           <div>
             <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-2">Media</h1>
             <nav className=" flex flex-col items-start md:items-center gap-2">
-              <BsFacebook
+              <BsInstagram
                 size={30}
                 className="hover:cursor-pointer"
-                style={{ color: "blue" }}
+                style={{ color: "orange" }}
               />
               <ImWhatsapp
                 className="hover:cursor-pointer"

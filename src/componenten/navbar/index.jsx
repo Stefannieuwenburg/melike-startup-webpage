@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Data } from "./data"
-import logo from "../../assets/logos/orglogo.jpg"
 export const NavMenu = () => {
   const [nav, setNav] = useState(false);
 

@@ -13,11 +13,11 @@ export const Data = [
   },
   {
     id: 4,
-    link: "Afspraak maken",
+    link: "Contact",
   },
   {
     id: 5,
-    link: "Contact",
+    link: "Informatie",
   },
 ];
 

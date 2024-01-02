@@ -2,6 +2,7 @@
 
 info [https://hairtransplantation.com/]
 Demo [https://templatemo.com/live/templatemo_456_luxury_gold]
+goed voorbeeld[https://hairworldistanbul.com/?gad_source=1&gclid=CjwKCAiAnL-sBhBnEiwAJRGiguDwoF1_KMBY8Ure51O2sBEpvbReedqHar9HdHMMlsgaHOl8i1jfPxoCiqIQAvD_BwE]
 colors: black
 gold inlined color:#915907
 className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"

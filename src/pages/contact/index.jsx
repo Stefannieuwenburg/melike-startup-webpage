@@ -5,10 +5,10 @@ export const Contact = () => {
   return (
     <>
       <section id="Contact" className="py-20 text-center items-center">
+        <p className="text-2xl text-white m-4 bg-[#9b7d3e] rounded-xl ">
+          Contact
+        </p>
         <h2 className="mb-6 text-2xl font-bold mx-14  ">
-          <p className="text-xl font-bold text-white mb-4 bg-[#9b7d3e] w-full rounded-xl ">
-            Contact
-          </p>
           Go4<span className="text-[#d8aa46]">Hair</span>
         </h2>
         <div className="container mx-auto md:px-6">
@@ -16,7 +16,7 @@ export const Contact = () => {
             <div className="flex flex-wrap">
               <div className="mb-6 w-full shrink-0 grow-0 basis-auto:mb-0 lg:w-4/12">
                 {/* form */}
-                <section class="container text-gray-600 body-font relative">
+                <section class="container text-gray-600 body-font relative border-2 rounded-xl">
                   <div class=" px-5 py-24 mx-auto">
                     <p className="mb-8 text-gray-600 font-bold text-xl">
                       Contact bericht

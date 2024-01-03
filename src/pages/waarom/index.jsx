@@ -7,7 +7,7 @@ export const Waarom = () => {
   return (
     <>
       <section
-        id="Behandelmethodes"
+        id="Waarom"
         className="flex items-center text-center justify-center py-2"
       >
         <div className="container mx-auto p-4">
@@ -53,7 +53,8 @@ export const Waarom = () => {
               />
               <div className="px-1 py-4">
                 <p className="text-gray-700 text-base font-normal">
-                  Uw betrouwbare partner in haartransplantatiediensten
+                  De eerst consultatie is gratis mogelijk online of op een
+                  locatie naar uw keuze
                 </p>
                 <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
                   plan een gratis adviesgesprek

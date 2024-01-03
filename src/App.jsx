@@ -1,6 +1,6 @@
 
 import { NavMenu } from "../src/componenten/navbar/index";
-import { Hero } from "./pages/hero/index";
+import { Home } from "./pages/home/index";
 import { Waarom } from "./pages/waarom/index";
 import { Transplantatie } from "./pages/transplantatie/index";
 import { Methodes } from "./pages/methodes/index";
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <NavMenu />
-      <Hero />
+      <Home />
       <Waarom />
       <Step />
       <Transplantatie />

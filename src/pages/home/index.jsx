@@ -1,9 +1,12 @@
 import Logo from "../../assets/logos/orglogo.jpg"
 import Button from "../../shared/button";
-export const Hero = () => {
+export const Home = () => {
   return (
     <>
-      <section className="text-gray-600 body-font h-screen w-full m-2 md:p-14">
+      <section
+        id="Home"
+        className="text-gray-600 body-font h-screen w-full m-2 md:p-14"
+      >
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
@@ -16,6 +19,7 @@ export const Hero = () => {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Uw betrouwbare partner in haartransplantatiediensten
             </h1>
+            <div className="w-12 h-1 bg-[#e0a96d] rounded mt-2 mb-2"></div>
             <p className="mb-8 leading-relaxed">
               Onze team staat voor volledige begeleiding en advies voor haar
               transplantatie in İstanbul. Inclusief in de prijs u ontvangt drie
@@ -24,7 +28,7 @@ export const Hero = () => {
               methodieken.
             </p>
             <div className="flex justify-center">
-              <Button text="Plan een gratis advies gesprek"  />
+              <Button text="Plan een gratis advies gesprek" />
             </div>
           </div>
         </div>

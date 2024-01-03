@@ -17,19 +17,34 @@ export const Footer = () => {
               Behandelmethodes
             </h1>
             <nav className=" flex flex-col gap-2">
-              <a className="hover:underline cursor-pointer" href="/">
+              <a
+                className="hover:underline cursor-pointer"
+                href="#Behandelmethodes"
+              >
                 Follicular Unit Transplantation (FUT)
               </a>
-              <a className="hover:underline cursor-pointer " href="/">
+              <a
+                className="hover:underline cursor-pointer "
+                href="#Behandelmethodes"
+              >
                 Follicular Unit Extraction (FUE)
               </a>
-              <a className="hover:underline cursor-pointer" href="/">
+              <a
+                className="hover:underline cursor-pointer"
+                href="#Behandelmethodes"
+              >
                 Sapphire (FUE)
               </a>
-              <a className="hover:underline cursor-pointer " href="/">
+              <a
+                className="hover:underline cursor-pointer "
+                href="#Behandelmethodes"
+              >
                 Ice (FUE)
               </a>
-              <a className="hover:underline cursor-pointer" href="/">
+              <a
+                className="hover:underline cursor-pointer"
+                href="#Behandelmethodes"
+              >
                 Direct Hair Implantation (DHI)
               </a>
             </nav>
@@ -39,16 +54,13 @@ export const Footer = () => {
               Contact
             </h1>
             <nav className=" flex flex-col gap-2">
-              <a className="hover:underline cursor-pointer" href="/">
+              <a className="hover:underline cursor-pointer" href="#Contact">
                 Email
               </a>
-              <a className="hover:underline cursor-pointer" href="/">
+              <a className="hover:underline cursor-pointer" href="#Contact">
                 WhatsApp
               </a>
-              <a
-                className="hover:underline cursor-pointer "
-                href="/"
-              >
+              <a className="hover:underline cursor-pointer " href="#Contact">
                 Afspraak maken
               </a>
             </nav>

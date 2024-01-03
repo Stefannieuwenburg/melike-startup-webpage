@@ -3,6 +3,9 @@ export const Step = () => {
   return (
     <>
       <section id="Hoe helpen wij" className="py-16">
+        <p className="text-2xl text-center text-white m-2 bg-[#9b7d3e] rounded-xl ">
+          Hoe Helpen Wij
+        </p>
         <div className="m-16 bg-[#f7f7f7]  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
             <div className="lg:py-6 lg:pr-16">

@@ -1,4 +1,4 @@
-import Button from "../../shared/button";
+import { Link } from "react-scroll";
 export const Transplantatie = () => {
   return (
     <>
@@ -24,7 +24,14 @@ export const Transplantatie = () => {
                     haartransplantatie behandelingen, wacht dan niet langer met
                     het maken van een vrijblijvende afspraak met ons.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
                     plan een gratis adviesgesprek
                     <svg
                       fill="none"
@@ -37,7 +44,7 @@ export const Transplantatie = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

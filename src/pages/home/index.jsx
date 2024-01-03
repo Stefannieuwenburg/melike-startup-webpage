@@ -1,5 +1,6 @@
 import Logo from "../../assets/logos/orglogo.jpg"
 import Button from "../../shared/button";
+import { Link } from "react-scroll";
 export const Home = () => {
   return (
     <>
@@ -28,7 +29,16 @@ export const Home = () => {
               methodieken.
             </p>
             <div className="flex justify-center">
-              <Button text="Plan een gratis advies gesprek" />
+              <Link
+                className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-5}
+                duration={500}
+              >
+                <Button text="Plan een gratis advies gesprek" />
+              </Link>
             </div>
           </div>
         </div>

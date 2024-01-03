@@ -1,7 +1,7 @@
 import image1 from "../../assets/images/wimage1.jpg";
 import image2 from "../../assets/images/wimage2.jpg";
 import image3 from "../../assets/images/wimage3.jpg";
-
+import { Link } from "react-scroll";
 
 export const Waarom = () => {
   return (
@@ -29,7 +29,14 @@ export const Waarom = () => {
                   Medisch team in İstanbul met meer dan 9 jaar ervaring met haar
                   transplantatie
                 </p>
-                <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
+                <Link
+                  className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                  to="Contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-5}
+                  duration={500}
+                >
                   plan een gratis adviesgesprek
                   <svg
                     fill="none"
@@ -42,7 +49,7 @@ export const Waarom = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="bg-white rounded-lg border p-4">
@@ -56,7 +63,14 @@ export const Waarom = () => {
                   De eerst consultatie is gratis mogelijk online of op een
                   locatie naar uw keuze
                 </p>
-                <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
+                <Link
+                  className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                  to="Contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-5}
+                  duration={500}
+                >
                   plan een gratis adviesgesprek
                   <svg
                     fill="none"
@@ -69,7 +83,7 @@ export const Waarom = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="bg-white rounded-lg border p-4">
@@ -83,7 +97,14 @@ export const Waarom = () => {
                   Inclusief in de prijs u ontvangt drie overnachtingen in een
                   hotel en privétransfer van en naar het vliegveld
                 </p>
-                <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
+                <Link
+                  className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                  to="Contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-5}
+                  duration={500}
+                >
                   plan een gratis adviesgesprek
                   <svg
                     fill="none"
@@ -96,7 +117,7 @@ export const Waarom = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

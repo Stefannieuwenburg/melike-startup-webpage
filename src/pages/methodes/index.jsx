@@ -3,7 +3,7 @@ import image2 from "../../assets/images/fut/fut.jpg";
 import image3 from "../../assets/images/ice fue/ice.jpg";
 import image4 from "../../assets/images/saphire fue/saphire.jpg";
 import image5 from "../../assets/images/tomuse dhi/tomuse.jpg";
-
+import { Link } from "react-scroll";
 export const Methodes = () => {
   return (
     <>
@@ -35,8 +35,15 @@ export const Methodes = () => {
                     donorgebied en een langere herstelperiode dan andere
                     methoden.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                    plan een adviesgesprek
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
+                    plan een gratis adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -48,7 +55,7 @@ export const Methodes = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-white rounded-lg border p-4">
@@ -70,8 +77,15 @@ export const Methodes = () => {
                     van het hoofd. FUE resulteert meestal in minder littekens en
                     een kortere herstelperiode dan FUT.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                    Plan een gratis adviesgesprek
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
+                    plan een gratis adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -83,7 +97,7 @@ export const Methodes = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-white rounded-lg border p-4">
@@ -101,8 +115,15 @@ export const Methodes = () => {
                     metalen instrument. Dit resulteert in minder trauma aan de
                     hoofdhuid en minder kans op beschadiging van de follikels.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
-                    Plan een gratis advies gesprek
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
+                    plan een gratis adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -114,7 +135,7 @@ export const Methodes = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-white rounded-lg border p-4">
@@ -131,8 +152,15 @@ export const Methodes = () => {
                     Dit vermindert de kans op bloedingen en vermindert het
                     ongemak voor de patiënt tijdens de procedure.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer ">
-                    Plan een gratis advies gesprek
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
+                    plan een gratis adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -144,7 +172,7 @@ export const Methodes = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-white rounded-lg border p-4">
@@ -166,8 +194,15 @@ export const Methodes = () => {
                     hoofdhuid plaatst. Dit resulteert in minder schade aan de
                     follikels en minder littekens.
                   </p>
-                  <a className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer">
-                    Plan een gratis advies gesprek
+                  <Link
+                    className="m-3 text-[#e0a96d] inline-flex items-center cursor-pointer"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-5}
+                    duration={500}
+                  >
+                    plan een gratis adviesgesprek
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -179,7 +214,7 @@ export const Methodes = () => {
                     >
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

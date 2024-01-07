@@ -1,4 +1,3 @@
-import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { ImWhatsapp } from "react-icons/im";
 

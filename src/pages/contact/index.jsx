@@ -1,4 +1,5 @@
-import Button from "../../shared/button";
+//import Button from "../../shared/button";
+import { BsInstagram } from "react-icons/bs";
 import { ImWhatsapp } from "react-icons/im";
 import { CgMail } from "react-icons/cg";
 export const Contact = () => {
@@ -16,7 +17,7 @@ export const Contact = () => {
             <div className="flex flex-wrap">
               <div className="mb-6 w-full shrink-0 grow-0 basis-auto:mb-0 lg:w-4/12">
                 {/* form */}
-                <section class="container text-gray-600 body-font relative border-2 rounded-xl">
+                {/* <section class="container text-gray-600 body-font relative border-2 rounded-xl items-center justify-center w-full shrink-0 grow-0 basis-auto">
                   <div class=" px-5 py-24 mx-auto">
                     <p className="mb-8 text-gray-600 font-bold text-xl">
                       Contact bericht
@@ -77,10 +78,10 @@ export const Contact = () => {
                       </div>
                     </div>
                   </div>
-                </section>
+                </section> */}
                 {/* form */}
               </div>
-              <div>
+              <div className="items-center justify-center w-full shrink-0 grow-0 basis-auto">
                 <div className="mt-12">
                   <div className="p-4 inline-block rounded-md bg-primary-100 text-primary">
                     <CgMail
@@ -92,9 +93,8 @@ export const Contact = () => {
                 </div>
                 <div className="">
                   <p className="mb-3 font-bold text-lg">Email Contact</p>
-                  <p className="text-neutral-500 dark:text-neutral-300">
-                    Email contact voor het maken van een afspraak of vragen over
-                    de behandeling
+                  <p className="m-2 text-neutral-500 dark:text-neutral-300">
+                    Go4hairclinic@gmail.com
                   </p>
                 </div>
                 <div>
@@ -109,8 +109,22 @@ export const Contact = () => {
                 <div className="ml-4 grow">
                   <p className="mb-3 font-bold text-lg">whatsapp Contact</p>
                   <p className="text-neutral-500 dark:text-neutral-300">
-                    Whatsapp contact voor het maken van een afspraak of vragen
-                    over de behandeling
+                    Tel: +31630360329
+                  </p>
+                </div>
+                <div>
+                  <div className="mt-8 inline-block rounded-md bg-primary-100 text-primary">
+                    <BsInstagram
+                      className="hover:cursor-pointer"
+                      size={35}
+                      style={{ color: "purple" }}
+                    />
+                  </div>
+                </div>
+                <div className="ml-4 grow">
+                  <p className="mb-3 font-bold text-lg">Instagram Contact</p>
+                  <p className="text-neutral-500 dark:text-neutral-300">
+                    @go4hair_clinic
                   </p>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-# Melike Hair Project
+# Go4hair Startup Webpage
 
 # npm create vite@latest
 cd melike-startup-webpage
@@ -21,4 +21,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Fun !!
+Fun !!!

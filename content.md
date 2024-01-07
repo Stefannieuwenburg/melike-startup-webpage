@@ -114,6 +114,33 @@ Gebruik: https://wa.me/1XXXXXXXXXX
 <a aria-label="WhatsApp" href="https://wa.me/1XXXXXXXXXX"><img alt="WhatsApp" src={logo} />
 <a />
 
+<a href="mailto:no-reply@example.com?body=Go4hair">E-Mail </a>
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+const ButtonMailto = ({ mailto, label }) => {
+    return (
+        <Link
+            to='#'
+            onClick={(e) => {
+                window.location.href = mailto;
+                e.preventDefault();
+            }}
+        >
+            {label}
+        </Link>
+    );
+};
+
+export default ButtonMailto;
+
+<ButtonMailto label="Write me an E-Mail" mailto="mailto:no-reply@example.com" />
+
+I've used the following method for opening the default mail client when button is clicked:
+
+<button onClick={() => window.location = 'mailto:yourmail@domain.com'}>Contact Me</button>
+
 
 
 

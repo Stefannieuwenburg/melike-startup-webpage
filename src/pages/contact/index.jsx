@@ -84,18 +84,18 @@ export const Contact = () => {
               <div className="items-center justify-center w-full shrink-0 grow-0 basis-auto">
                 <div className="mt-12">
                   <div className="p-4 inline-block rounded-md bg-primary-100 text-primary">
-                    <CgMail
-                      className="hover:cursor-pointer"
-                      size={35}
-                      style={{ color: "Red" }}
-                    />
+                    <a href="mailto:Go4hairclinic@gmail.com?body= Beste go4hair">
+                      <CgMail
+                        className="hover:cursor-pointer"
+                        size={35}
+                        style={{ color: "Red" }}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="">
                   <p className="mb-3 font-bold text-lg">Email Contact</p>
-                  <p className="m-2 text-neutral-500 dark:text-neutral-300">
-                   
-                  </p>
+                  <p className="m-2 text-neutral-500 dark:text-neutral-300"></p>
                 </div>
                 <div>
                   <div className="mt-8 inline-block rounded-md bg-primary-100 text-primary">

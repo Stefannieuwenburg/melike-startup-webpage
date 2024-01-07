@@ -94,7 +94,7 @@ export const Contact = () => {
                 <div className="">
                   <p className="mb-3 font-bold text-lg">Email Contact</p>
                   <p className="m-2 text-neutral-500 dark:text-neutral-300">
-                    Go4hairclinic@gmail.com
+                   
                   </p>
                 </div>
                 <div>

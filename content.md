@@ -104,9 +104,9 @@ Nazorg/Control: U krijgt instructie over wassing process en controle momenten. W
 
  # Contact
 Contact
-Watsup : 0031630360329
-Email:
-Intagram: qr code ?
+WhatsApp : +31630360329
+Email: Go4hairclinic@gmail.com
+Intagram:  @go4hair_clinic
 # contact /contact:
 https://faq.whatsapp.com/5913398998672934/?locale=nl_NL
 Gebruik https://wa.me/<number> waarbij <number> een volledig telefoonnummer is in internationale notatie. Gebruik geen nullen, haakjes of streepjes in het telefoonnummer in internationale notatie

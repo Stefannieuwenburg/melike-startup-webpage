@@ -12,4 +12,4 @@ This is a simple web page for go4hair startup.
 npm create vite@latest
 npm install
 npm run dev
-Fun !!!
+Fun !!

@@ -1,6 +1,6 @@
 import { BsInstagram } from "react-icons/bs";
 import { ImWhatsapp } from "react-icons/im";
-
+import { CgMail } from "react-icons/cg";
 export const Footer = () => {
   return (
     <>
@@ -69,16 +69,35 @@ export const Footer = () => {
               Media
             </h1>
             <nav className=" flex flex-col items-start md:items-center gap-2">
-              <BsInstagram
-                size={30}
-                className="hover:cursor-pointer"
-                style={{ color: "purple" }}
-              />
-              <ImWhatsapp
-                className="hover:cursor-pointer"
-                size={30}
-                style={{ color: "Green" }}
-              />
+              <a
+                target="_blank"
+                aria-label="Instagram"
+                href="https://www.instagram.com/go4hair_clinic/"
+              >
+                <BsInstagram
+                  size={30}
+                  className="hover:cursor-pointer"
+                  style={{ color: "purple" }}
+                />
+              </a>
+              <a
+                target="_blank"
+                aria-label="Chat on WhatsApp"
+                href="https://wa.me/+31630360329"
+              >
+                <ImWhatsapp
+                  className="hover:cursor-pointer"
+                  size={30}
+                  style={{ color: "Green" }}
+                />
+              </a>
+              <a href="mailto:Go4hairclinic@gmail.com?body= Beste go4hair">
+                <CgMail
+                  className="hover:cursor-pointer"
+                  size={35}
+                  style={{ color: "Red" }}
+                />
+              </a>
             </nav>
           </div>
         </div>

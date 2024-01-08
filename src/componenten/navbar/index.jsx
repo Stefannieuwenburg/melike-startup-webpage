@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Data } from "./data"
+import { ImWhatsapp } from "react-icons/im";
 export const NavMenu = () => {
   const [nav, setNav] = useState(false);
 
@@ -57,6 +58,17 @@ export const NavMenu = () => {
               </Link>
             </li>
           ))}
+          <a
+            target="_blank"
+            aria-label="Chat on WhatsApp"
+            href="https://wa.me/+31630360329"
+          >
+            <ImWhatsapp
+              className="hover:cursor-pointer"
+              size={30}
+              style={{ color: "Green" }}
+            />
+          </a>
         </ul>
       )}
     </div>

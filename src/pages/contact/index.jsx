@@ -99,26 +99,38 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="mt-8 inline-block rounded-md bg-primary-100 text-primary">
-                    <ImWhatsapp
-                      className="hover:cursor-pointer"
-                      size={35}
-                      style={{ color: "Green" }}
-                    />
+                    <a
+                      target="_blank"
+                      aria-label="Chat on WhatsApp"
+                      href="https://wa.me/+31630360329"
+                    >
+                      <ImWhatsapp
+                        className="hover:cursor-pointer"
+                        size={35}
+                        style={{ color: "Green" }}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="ml-4 grow">
-                  <p className="mb-3 font-bold text-lg">whatsapp Contact</p>
+                  <p className="mb-3 font-bold text-lg">WhatsApp Contact</p>
                   <p className="text-neutral-500 dark:text-neutral-300">
                     Tel: +31630360329
                   </p>
                 </div>
                 <div>
                   <div className="mt-8 inline-block rounded-md bg-primary-100 text-primary">
-                    <BsInstagram
-                      className="hover:cursor-pointer"
-                      size={35}
-                      style={{ color: "purple" }}
-                    />
+                    <a
+                      target="_blank"
+                      aria-label="Instagram"
+                      href="https://www.instagram.com/go4hair_clinic/"
+                    >
+                      <BsInstagram
+                        className="hover:cursor-pointer"
+                        size={35}
+                        style={{ color: "purple" }}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="ml-4 grow">
